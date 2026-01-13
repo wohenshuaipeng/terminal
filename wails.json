@@ -1,0 +1,11 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "goterm",
+  "outputfilename": "goterm",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev -- --host 127.0.0.1 --port 5174 --strictPort",
+  "frontend:dev:serverUrl": "http://localhost:5174",
+  "frontend:dir": "frontend",
+  "wailsjsdir": "frontend/src/wailsjs"
+}

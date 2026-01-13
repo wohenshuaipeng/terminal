@@ -1,0 +1,18 @@
+'Log files:
+D:\goterm\frontend\.npm-cache\_logs\2026-01-09T03_22_25_954Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: goterm-frontend@0.0.0
+Found: xterm@undefined
+node_modules/xterm
+  xterm@"^5.5.0" from the root project
+
+Could not resolve dependency:
+peer xterm@"^5.0.0" from xterm-addon-fit@0.8.0
+node_modules/xterm-addon-fit
+  xterm-addon-fit@"^0.8.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

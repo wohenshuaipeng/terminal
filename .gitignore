@@ -1,0 +1,49 @@
+# Go build/test artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.cover
+cover.out
+coverage/
+
+# Build output
+/bin/
+/build/
+/dist/
+/out/
+/tmp/
+
+# Frontend dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
